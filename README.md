@@ -7,6 +7,10 @@ This project lets the user click on a button to trigger a sound linked to this b
 ***
 ![Drum Kit Screenshot](Drum%20Kit/screenshots/DrumKit1.png)
 
+
+
+
+
 ## Roll The Dice Game
 
 This project compares the result of rolling two dice by two players. The action of rolling both dice by both players is done by the computer. 
