@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Roll the dice</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Refresh Me</h1>
+
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img1" src="images\dice6.png">
+    </div>
+
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img2" src="images\dice6.png">
+    </div>
+
+  </div>
+
+  <script src="index.js">
+  </script>
+
+  <script type="text/javascript">
+    let finalResult1 = randomDicee(".img1");
+    let finalResult2 = randomDicee(".img2");
+
+    if (finalResult1 > finalResult2) {
+      document.querySelector("h1").innerHTML = "Player 1 wins";
+
+    } else if (finalResult1 < finalResult2) {
+      document.querySelector("h1").innerHTML = "Player 2 wins";
+    } else {
+      document.querySelector("h1").innerHTML = "It's a draw";
+    }
+  </script>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
