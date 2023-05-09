@@ -14,9 +14,3 @@ The computer performs the action on behalf of both players. The game is started 
 The computer compares the result of rolling both of the dices and prints out an appropriate heading.
 
 ![Drum Kit Screenshot](Roll%20The%20Dice%20Game/screenshots/RollTheDiceScreenshot.png)
-
-&nbsp;
-## Guess The Colour Game
-
-This is an interactive project. The user triggers the start of the game by pressing any key on the keyboard and then one of the four coloured buttons flashes once and plays the sound linked to it. The user needs to remember which button flashed and press the appropriate button. Then the next colour flashes, and the user needs to remember which one has and so on. The sequence to remember gets longer by one button/colour each time the user replicates it correctly and it terminates when they make a mistake which triggers the background to flash bright red.
-
